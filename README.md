@@ -28,11 +28,12 @@ $ sbcl --load quicklisp.lisp
 Tell QuickLisp where to find systems:
 
 ```
-echo "(:tree (:home "src/lisp/")) " >> vim ~/.config/common-lisp/source-registry.conf.d/projects.conf 
+$ echo "(:tree (:home "src/lisp/")) " >> vim ~/.config/common-lisp/source-registry.conf.d/projects.conf 
 ```
 
 Run the kata: 
 
 ```
+$ sbcl
 * (ql:quickload "checkoutkata")
 ```
