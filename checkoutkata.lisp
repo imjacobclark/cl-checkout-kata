@@ -25,7 +25,7 @@
       (eq 
         discount-threshold 
         count-in-basket)
-        discount-price
+      discount-price
       (calculate-discount 
         item 
         (remove item basket :count 1)
